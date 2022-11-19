@@ -717,6 +717,14 @@ export default class Home extends PureComponent {
               >
                 <TransactionList />
               </Tab>
+              <Tab
+                activeClassName="home__tab--active"
+                className="home__tab"
+                data-testid="home__kyc-tab"
+                name={t('kyc')}
+              >
+                <TransactionList />
+              </Tab>
             </Tabs>
             <div className="home__support">
               {
